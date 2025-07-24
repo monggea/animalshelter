@@ -1,0 +1,9 @@
+.header {
+  background-color: rgb(240, 240, 240);
+  height: 120px;
+}
+.header .logo {
+  background: #d9d9d9;
+  width: 150px;
+  text-align: center;
+}/*# sourceMappingURL=Header.module.css.map */

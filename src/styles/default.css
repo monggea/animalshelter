@@ -79,10 +79,11 @@ p {
 
 .nav-default {
   font-family: "Cafe24Ohsquare", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.nav-samll {
+.nav-small {
+  font-family: "S-CoreDream", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -289,6 +290,11 @@ p {
   background-color: #FAF9F6;
 }
 
+.text {
+  color: #2E3A3A;
+  border-color: #2E3A3A;
+}
+
 .text-light {
   color: #BDBDBD;
   border-color: #BDBDBD;
@@ -305,7 +311,7 @@ p {
 
 @font-face {
   font-family: "S-CoreDream";
-  src: url("../assets/fonts/S-CoreDream-6Bold.woff2") format("woff2"), url("../assets/fonts/S-CoreDream-5Medium.woff") format("woff");
+  src: url("../assets/fonts/S-CoreDream-5Medium.woff2") format("woff2"), url("../assets/fonts/S-CoreDream-5Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -326,9 +332,10 @@ p {
 }
 @font-face {
   font-family: "Cafe24Ohsquare";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff") format("woff");
+  src: url("../assets/fonts/Cafe24Ohsquare.woff") format("woff"), url("../assets/fonts/Cafe24Ohsquare.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";

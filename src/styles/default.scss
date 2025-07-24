@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'S-CoreDream';
-    src: url('../assets/fonts/S-CoreDream-6Bold.woff2') format('woff2'),
+    src: url('../assets/fonts/S-CoreDream-5Medium.woff2') format('woff2'),
     url('../assets/fonts/S-CoreDream-5Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
@@ -36,9 +36,11 @@
 
 @font-face {
     font-family: 'Cafe24Ohsquare';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    src: url('../assets/fonts/Cafe24Ohsquare.woff') format('woff'),
+    url('../assets/fonts/Cafe24Ohsquare.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 

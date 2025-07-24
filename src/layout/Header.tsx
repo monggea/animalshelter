@@ -29,7 +29,7 @@ const Header = () => {
                 title="동물을 찾습니다">
                 <NavDropdown.Item href="#">실종동물 찾습니다</NavDropdown.Item>
                 <NavDropdown.Item href="#">주인을 찾습니다</NavDropdown.Item>
-                <NavDropdown.Item href="#">상봉 완료!</NavDropdown.Item>
+                <NavDropdown.Item href="#">상봉 완료?!</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown
@@ -59,7 +59,7 @@ const Header = () => {
       </Container>
     </Navbar>
 
-    <a href="http://news.com">text</a>
+    <div className='display-1'>123456789</div>
     </>
   )
 };

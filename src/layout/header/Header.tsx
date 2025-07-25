@@ -1,43 +1,57 @@
-import {Container, Nav, Navbar, Offcanvas} from 'react-bootstrap';
-import NavDetail from "../../components/NavDetail";
+import {Container, Nav, Navbar, Offcanvas, NavDropdown} from 'react-bootstrap';
 import MenusData from "../../data/menu.json";
 import styles from './Header.module.scss';
 
 const Header = () => {
   return(
-    <>
-    <Navbar expand="md" className={styles.header}>
-      <Container fluid>
-        <Navbar.Brand href="/" className={styles.logo}>Logo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basicNav" />
+  <Navbar expand="md" className={styles.header}>
+    <Container fluid>
+      <Navbar.Brand href="/" className={styles.logo}>Logo</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basicNav"/>
 
-        <Navbar.Offcanvas
-          id="basicNav"
-          aria-labelledby="basicLabel"
-          placement="end"
+      <Navbar.Offcanvas
+        id="basicNav"
+        aria-labelledby="basicLabel"
+        placement="end"
         >
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title id="basicLabel">Logo</Offcanvas.Title>
-          </Offcanvas.Header>
+        <Offcanvas.Header closeButton>
+        <Offcanvas.Title id="basicLabel">Logo</Offcanvas.Title>
+        </Offcanvas.Header>
 
-          <Offcanvas.Body className="justify-content-between">
-            <Nav>
-              {MenusData.map(({ menuId, title, menus }) => (
-                <NavDetail
-                  key={menuId}
-                  menuId={menuId}
-                  title={title}
-                  menus={menus}
-                />
-              ))}
-            </Nav>
-
+        <Offcanvas.Body className="justify-content-between align-items-center">
+          <Nav className="gap-4">
             
-          </Offcanvas.Body>
-        </Navbar.Offcanvas>
-      </Container>
-    </Navbar>
-    </>
+          {MenusData.map(({ menuId, title, menus }) => (
+            <NavDropdown
+            id={menuId}
+            title={title}
+            className="nav-default">
+
+              {menus.map(({ label, to }, i) => (
+
+                <NavDropdown.Item
+                  key={i} href={to}
+                  className={`nav-small d-flex gap-4 ${styles.submenu}`}
+                  ><span className={styles.icon}></span>{label}
+                </NavDropdown.Item>
+
+              ))}
+
+            </NavDropdown>
+          ))}
+
+          </Nav>
+
+          <Nav className={`ms-auto nav-small gap-2 ${styles.login}`}>
+            <Nav.Link href="#" className='d-flex align-items-center gap-2'><span className={styles.iconR}></span>로그인</Nav.Link>
+            <Nav.Link href="#" className='d-flex align-items-center gap-2'><span className={styles.iconR}></span>회원가입</Nav.Link>
+            <Nav.Link href="#">마이페이지</Nav.Link>
+          </Nav>
+        </Offcanvas.Body>
+
+      </Navbar.Offcanvas>
+    </Container>
+  </Navbar>
   )
 };
 

@@ -1,6 +1,6 @@
 import {Container, Nav, Navbar, Offcanvas, NavDropdown} from 'react-bootstrap';
 import MenusData from "../../data/menu.json";
-import styles from './Header.module.scss';
+import styles from './Header.module.css';
 
 const Header = () => {
   return(

@@ -75,11 +75,13 @@ p {
 .body-large {
   font-size: 20px;
   line-height: 1.8em;
+  font-weight: 400;
 }
 
 .body-small {
   font-size: 14px;
   line-height: 1.8em;
+  font-weight: 400;
 }
 
 .nav-default {
@@ -317,13 +319,13 @@ p {
 }
 
 .text-light {
-  color: #BDBDBD;
-  border-color: #BDBDBD;
+  color: #BDBDBD !important;
+  border-color: #BDBDBD !important;
 }
 
 .text-dark {
-  color: #707070;
-  border-color: #707070;
+  color: #707070 !important;
+  border-color: #707070 !important;
 }
 
 .divider, .dropdown-divider, hr {

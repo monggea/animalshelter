@@ -24,9 +24,6 @@
   height: 40px;
   gap: 5px;
 }
-.search .searchBtn:focus, .search .searchBtn:active {
-  outline: none;
-}
 .search .searchBtn .icon {
   border: 1px solid white;
   width: 20px;

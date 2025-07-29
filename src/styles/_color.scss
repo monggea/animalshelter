@@ -7,7 +7,12 @@
 
 */
 .primary{color:#3A7F78; border-color:#3A7F78;}
-.primary-bg{color:#fff; background-color:#3A7F78;}
+.primary-bg{
+    color:#fff;
+    background-color:#3A7F78;
+    &:hover{background-color:#285c57;}
+}
+
 .primary-btn{
     color:#3A7F78;
     border-color:#3A7F78;
@@ -24,7 +29,7 @@
 
 .primary-dark{color:#285C57; border-color:#285C57;}
 .primary-dark-bg{color:#fff; background-color:#285c57;}
-.primary-dark-btn{
+    .primary-dark-btn{
     color:#285C57;
     border-color:#285C57;
     &:hover{color:#fff; background-color:#285C57;}

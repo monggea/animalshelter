@@ -53,7 +53,7 @@ $colors:(
 @mixin themed-text($color){color:$color}
 @mixin themed-border($color){border-color:$color}
 @mixin themed-bg($bg, $text:#fff){
-    background-color:$bg;
+    background-color:$bg !important;
     color:$text;
 }
 

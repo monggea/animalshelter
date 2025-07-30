@@ -45,18 +45,18 @@ h2 {
 
 h3 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 h4 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 500 !important;
   line-height: 1.8em;
 }
 
 h6 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 500 !important;
   line-height: 1.5em;
 }
 
@@ -67,7 +67,7 @@ p {
 .display-1 {
   all: unset;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 80px;
   font-feature-settings: "ss04" on;
 }
@@ -75,13 +75,13 @@ p {
 .body-large {
   font-size: 20px;
   line-height: 1.8em;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .body-small {
   font-size: 14px;
   line-height: 1.8em;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 
 .nav-default {
@@ -92,17 +92,17 @@ p {
 .nav-small {
   font-family: "S-CoreDream", sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .btn-custom {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600 !important;
 }
 
 .tab {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 500 !important;
   line-height: 1.2em;
 }
 
@@ -134,7 +134,7 @@ p {
 }
 
 .primary-bg {
-  background-color: #3A7F78;
+  background-color: #3A7F78 !important;
   color: #fff;
 }
 
@@ -169,7 +169,7 @@ p {
 }
 
 .primary-light-bg {
-  background-color: #EAF5F4;
+  background-color: #EAF5F4 !important;
   color: #fff;
 }
 
@@ -194,7 +194,7 @@ p {
 }
 
 .primary-light-bg {
-  background-color: #285C57;
+  background-color: #285C57 !important;
   color: #fff;
 }
 
@@ -219,7 +219,7 @@ p {
 }
 
 .secondary-bg {
-  background-color: #F8B661;
+  background-color: #F8B661 !important;
   color: #fff;
 }
 
@@ -254,7 +254,7 @@ p {
 }
 
 .secondary-light-bg {
-  background-color: #FDE8C7;
+  background-color: #FDE8C7 !important;
   color: #fff;
 }
 
@@ -279,7 +279,7 @@ p {
 }
 
 .secondary-light-bg {
-  background-color: #D2914E;
+  background-color: #D2914E !important;
   color: #fff;
 }
 
@@ -304,7 +304,7 @@ p {
 }
 
 .blend-bg {
-  background-color: #375829;
+  background-color: #375829 !important;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ p {
 }
 
 .blend-light-bg {
-  background-color: #B1D6AE;
+  background-color: #B1D6AE !important;
   color: #fff;
 }
 
@@ -364,7 +364,7 @@ p {
 }
 
 .blend-light-bg {
-  background-color: #2B4A30;
+  background-color: #2B4A30 !important;
   color: #fff;
 }
 
@@ -389,7 +389,7 @@ p {
 }
 
 .danger-bg {
-  background-color: #d95040;
+  background-color: #d95040 !important;
   color: #fff;
 }
 

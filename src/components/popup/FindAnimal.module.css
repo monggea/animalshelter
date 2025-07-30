@@ -1,0 +1,31 @@
+.popup .top {
+  height: 44px;
+}
+.popup .content {
+  border-radius: 10px;
+}
+.popup .content .title {
+  font-size: 28px;
+}
+.popup .content .title mark {
+  position: relative;
+  top: -0.25em;
+  height: 30px;
+  padding: 0 40px;
+  line-height: 0.38;
+  display: inline-block;
+}
+.popup .content .lIcon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid red;
+}
+.popup .content .rIcon {
+  display: block;
+  width: 10px;
+}
+.popup .content .txtSize {
+  font-size: 18px;
+  font-weight: 300;
+}/*# sourceMappingURL=FindAnimal.module.css.map */

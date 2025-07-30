@@ -7,6 +7,7 @@ const Post = () => {
             <ul><li>
             <article className={`d-flex justify-content-between w-100 ${styles.wrapper}`} aria-labelledby="post-title">
                 <div className={`post-wrapper d-flex flex-column justify-content-between ${styles.content}`}>
+                   
                     <div className="post-content d-flex flex-column gap-3">
                         <div className="d-flex gap-3 align-items-center">
 
@@ -76,13 +77,16 @@ const Post = () => {
                         <li className="d-flex gap-2 align-items-center nav-small text-light">
                         <div
                             aria-label="댓글수"
-                            className={styles.icon}></div>
+                            className={styles.icon}/>
                             0
                         </li>
                     </ul>
                 </div>
-
-                <img src="" alt="반려동물 사진" aria-hidden="true"/>
+                
+                <figure aria-hidden="true">
+                <img src="" alt="반려동물 사진"/>
+                </figure>
+                
             </article>
             <hr/>
             </li></ul>

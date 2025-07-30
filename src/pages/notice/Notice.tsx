@@ -37,7 +37,7 @@ const Notice =()=>{
                     </time>
 
                     <span className="views col-2 d-flex align-items-center justify-content-center text-dark gap-2">
-                        <div aria-hidden="true" className={styles.icon}></div>
+                        <div aria-hidden="true" className={styles.icon}/>
                         19873
                     </span>
                     

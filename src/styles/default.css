@@ -16,6 +16,8 @@ a {
 
 ul, ol, li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,7 +56,7 @@ h4 {
   line-height: 1.8em;
 }
 
-h6 {
+h5 {
   font-size: 14px;
   font-weight: 500 !important;
   line-height: 1.5em;

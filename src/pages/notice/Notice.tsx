@@ -20,11 +20,11 @@ const Notice =()=>{
                     <span className="no col-1 d-flex align-items-center justify-content-center btn-custom">1</span>
                     
                     <div className="title col-7 d-flex align-items-center body-large gap-3">
-                        <h6 className={styles.title}>종합유기견보호센터의 새 모바일웹&어플이 출시되었습니다.</h6>
+                        <h6 id="notice-title" className={styles.title}>종합유기견보호센터의 새 모바일웹&어플이 출시되었습니다.</h6>
                         
                         <Badge
                             aria-label="새로운 글"
-                            className={`secondary-bg tab ${styles.newTag}`}
+                            className={`secondary-bg tab ${styles.titleBadge}`}
                             >NEW!
                         </Badge>
                     </div>

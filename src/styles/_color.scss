@@ -115,10 +115,10 @@ $colors:(
 
     
     @if $dark !=null {
-        .#{$name}-light{@include themed-text($dark)}
-        .#{$name}-light-bg{@include themed-bg($dark,$contrast)}
-        .#{$name}-light-btn{@include outlined-btn($dark,$contrast)}
-        .#{$name}-light-line {
+        .#{$name}-dark{@include themed-text($dark)}
+        .#{$name}-dark-bg{@include themed-bg($dark,$contrast)}
+        .#{$name}-dark-btn{@include outlined-btn($dark,$contrast)}
+        .#{$name}-dark-line {
             @include themed-text($dark);
             @include themed-border($dark);
         }
@@ -136,6 +136,5 @@ $colors:(
 .text-dark{color:#707070 !important;}
 
 .bg-color{background-color:#FAF9F6;}
-.divider,
-.dropdown-divider,
-hr{border-color:#DADADA !important;}
+.bg-color-badge{background-color:#FAF9F6 !important; color:#707070;}
+.divider, .dropdown-divider, hr{border-color:#DADADA !important; opacity:1;}

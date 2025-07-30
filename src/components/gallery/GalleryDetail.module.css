@@ -10,6 +10,8 @@
   aspect-ratio: 1/1;
   overflow: hidden;
   box-sizing: border-box;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
 .warp .hashtag {
   padding: 5px 10px;

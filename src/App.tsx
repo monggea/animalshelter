@@ -5,14 +5,16 @@ import Footer from './layout/Footer';
 import Nav from './layout/nav/Nav';
 import Search from './components/search/Search';
 import Gallery from './components/gallery/GalleryDetail';
+import Notice from './components/notice/NoticeBoard';
 
 function App() {
   return (
     <>
     <Header/>
-    {/* <Nav/> */}
-    {/* <Search/> */}
+    <Nav/>
+    <Search/>
     <Gallery/>
+    <Notice/>
     </>
   );
 }

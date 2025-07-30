@@ -121,7 +121,7 @@ const Search = () => {
 
             <Button
                 onClick={handleSearch}
-                className={`d-flex align-items-center justify-content-center btn-custom primary-bg ${styles.searchBtn}`}
+                className={`d-flex align-items-center justify-content-center btn-custom primary-bg-btn ${styles.searchBtn}`}
                 ><div className={`${styles.icon}`}></div>검색
             </Button>
 
@@ -189,7 +189,7 @@ const Search = () => {
                             </div>
                         )}
 
-                        <Button as="h6" className={`primary-bg ${styles.dropBtn}`} onClick={applyA}>적용하기</Button>
+                        <Button as="h6" className={`primary-bg-btn ${styles.dropBtn}`} onClick={applyA}>적용하기</Button>
                     </Popover.Body>
                 </Popover>
             </Overlay>
@@ -224,7 +224,7 @@ const Search = () => {
                         </div>
                         )}
 
-                        <Button className={`primary-bg ${styles.dropBtn}`} onClick={applyB}>적용하기</Button>
+                        <Button className={`primary-bg-btn ${styles.dropBtn}`} onClick={applyB}>적용하기</Button>
                     </Popover.Body>
                 </Popover>
             </Overlay>

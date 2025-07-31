@@ -3,6 +3,7 @@ html, * {
   margin: 0;
   padding: 0;
   color: #2e3a3a;
+  word-break: keep-all;
 }
 
 *, *::before, *::after {
@@ -14,8 +15,13 @@ a {
   color: inherit;
 }
 
-ul, ol, li, dl, dt, dd, p {
+ul, ol, li, dl, dt, dd {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
   margin: 0;
   padding: 0;
 }
@@ -445,6 +451,10 @@ p {
 .divider, .dropdown-divider, hr {
   border-color: #DADADA !important;
   opacity: 1;
+}
+
+.popup-gird {
+  width: 70%;
 }
 
 @font-face {

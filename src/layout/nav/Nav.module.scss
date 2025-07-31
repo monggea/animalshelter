@@ -17,17 +17,23 @@
             gap:5px;
             &:hover{color:#F8B661;}
 
-            .icon{width:32px; height:32px;
-                border:1px solid;
+            .icon{
+                width:32px; height:32px;
+                fill:#F8B661;
             }
         }
     }
      
     .topBtn{
         aspect-ratio:1/1;
-        width:80px;
+        width:80px; margin-bottom:-1px;
         border:none;
         border-radius:0 50px 50px 50px;
         &:hover{background-color:#F8B661;}
+
+        .topIcon{
+            width:32px; height:32px;
+            stroke:#fff;
+        }
     }
 }

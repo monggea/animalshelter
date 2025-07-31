@@ -9,21 +9,17 @@ import Gallery from './pages/Gallery';
 import Notice from './pages/notice/Notice';
 import Post from './pages/Category';
 
-import Popup from './components/popup/FindAnimal';
-
 function App() {
   return (
     <>
     <Header/>
-    {/* <Nav/> */}
+    <Nav/>
     
     <Container fluid>
       <Row>
       <Gallery/>
       <Notice/>
       <Post/>
-
-      <Popup/>
 
      </Row>
     </Container>

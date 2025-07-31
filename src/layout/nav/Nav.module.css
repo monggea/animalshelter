@@ -23,14 +23,20 @@
 .navSide .navContent .content .icon {
   width: 32px;
   height: 32px;
-  border: 1px solid;
+  fill: #F8B661;
 }
 .navSide .topBtn {
   aspect-ratio: 1/1;
   width: 80px;
+  margin-bottom: -1px;
   border: none;
   border-radius: 0 50px 50px 50px;
 }
 .navSide .topBtn:hover {
   background-color: #F8B661;
+}
+.navSide .topBtn .topIcon {
+  width: 32px;
+  height: 32px;
+  stroke: #fff;
 }/*# sourceMappingURL=Nav.module.css.map */

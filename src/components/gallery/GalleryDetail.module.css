@@ -1,17 +1,23 @@
 .warp {
+  width: 100%;
   aspect-ratio: 3/4;
   border-radius: 30px;
   border: none;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   overflow: hidden;
+  margin-top: 50px;
 }
 .warp .cardImg {
   width: 100%;
+  height: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
   box-sizing: border-box;
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
+}
+.warp .cardImg .imagefit {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .warp .hashtag {
   padding: 5px 10px;

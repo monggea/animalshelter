@@ -7,7 +7,7 @@ import Footer from './layout/Footer';
 import Nav from './layout/nav/Nav';
 import Gallery from './pages/Gallery';
 import Notice from './pages/notice/Notice';
-import Post from './pages/Category';
+import Post from './pages/category/Category';
 
 function App() {
   return (
@@ -17,12 +17,14 @@ function App() {
     
     <Container fluid>
       <Row>
-      <Gallery/>
-      <Notice/>
+      {/* <Gallery/> */}
+      {/* <Notice/> */}
       <Post/>
 
      </Row>
     </Container>
+
+    <Footer/>
     </>
   );
 }

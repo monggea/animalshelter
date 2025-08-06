@@ -1,5 +1,6 @@
 import {useState, useEffect, useRef} from 'react';
 import {Container, Nav, Navbar, Offcanvas} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import MenusData from "../../data/menu.json";
 import styles from './Header.module.css';
 
@@ -92,13 +93,13 @@ const HeaderWeb: React.FC = () => {
             {activeMenuGroup?.menus.map(menuItem => {
                 const IconComp = iconMap[menuItem.icon] as React.FC<React.SVGProps<SVGSVGElement>>;
                 return(                  
-                <a
+                <Link
                     key={menuItem.title}
-                    href={menuItem.to}
+                    to={menuItem.to}
                     className={styles.dropItem}
                     ><IconComp className={styles.iconLeft}/>
                     {menuItem.title}
-                </a>
+                </Link>
                 )
             })}
             </div>

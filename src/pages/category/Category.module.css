@@ -1,0 +1,9 @@
+.writtenIcon {
+  border: 1px solid red;
+}
+
+.banner {
+  width: 100%;
+  aspect-ratio: 1920/440;
+  background-color: #999;
+}/*# sourceMappingURL=Category.module.css.map */

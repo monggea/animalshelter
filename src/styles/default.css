@@ -453,8 +453,16 @@ p {
   opacity: 1;
 }
 
-.popup-gird {
+.popup-grid {
   width: 70%;
+}
+
+.content-grid {
+  max-width: 1500px;
+}
+
+.top-105 {
+  padding-top: 105px;
 }
 
 @font-face {

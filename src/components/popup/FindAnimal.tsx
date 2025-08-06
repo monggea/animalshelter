@@ -60,7 +60,7 @@ const Find: React.FC<FindProps> = ({show, onClose}) => {
                     <Cursor className={styles.cursorIcon}/>
                 </h2>
 
-                <ul className="popup-gird d-flex flex-column gap-2 mb-5">
+                <ul className="popup-grid d-flex flex-column gap-2 mb-5">
                     <li className={`d-flex align-items-center gap-4 ${styles.underline}`}>
                         <Text className={styles.lIcon} aria-hidden="true"/>
                         <p className={styles.txtSize}><span>실종동물 등록 및 빠른 전단지 작성</span></p>
